@@ -1,0 +1,10 @@
+# ref: https://docs.travis-ci.com/user/languages/python
+language: python
+dist: xenial
+
+install:
+  - pip install tox
+
+script:
+  - tox
+  
